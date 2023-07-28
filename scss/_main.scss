@@ -1,0 +1,37 @@
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    li{
+        padding: 40px 0 24px 0;
+        width: 306px;
+        text-align: center;
+    }
+}
+.header{
+    display: flex;
+    gap: 24px;
+}
+.bigTitles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a{
+        display: block;
+        margin-left: auto;
+        padding: 12px 24px;
+        border-radius: 32px;
+        outline: solid 1px black;
+    }
+}
+.job{
+    font-size: 64px;
+}
+.name{
+    font-size: 128px;
+    text-align: right;
+}
