@@ -78,6 +78,10 @@ a {
   margin: 0 auto;
 }
 
+.bg-black {
+  background: #000;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,6 +94,9 @@ a {
   padding: 40px 0 24px 0;
   width: 306px;
   text-align: center;
+}
+.navbar li a {
+  color: #D1D1D1;
 }
 
 .header {
@@ -111,19 +118,142 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.bigTitles a {
+
+.contackme {
   display: block;
   margin-left: auto;
   padding: 12px 24px;
   border-radius: 32px;
-  outline: solid 1px black;
+  background: #fff;
+  color: #000;
 }
 
 .job {
   font-size: 64px;
+  color: #fff;
 }
 
 .name {
   font-size: 128px;
   text-align: right;
+  color: #00FFA3;
+}
+
+.introduction-bg {
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+}
+
+.introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  padding: 160px 0;
+}
+
+.intro-content {
+  width: 40%;
+}
+.intro-content p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.intro-title {
+  font-size: 64px;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.intro-pic {
+  width: 60%;
+}
+.intro-pic img {
+  margin-right: 24px;
+}
+.intro-pic img:last-child {
+  margin-right: 0;
+}
+
+.aboutme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10%;
+  padding: 160px 0;
+}
+
+.skill-cards {
+  width: 49%;
+}
+
+.skill-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.skill-list li {
+  width: 45%;
+  padding: 16px;
+  outline: solid 1px #e3e3e3;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.skill-title {
+  font-size: 20px;
+}
+
+.aboutme-content {
+  width: 40%;
+}
+.aboutme-content p {
+  font-size: 24px;
+}
+
+.aboutme-title {
+  font-size: 64px;
+}
+
+.contactMe-bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#050014), to(rgba(1, 2, 30, 0.8901960784)));
+  background: linear-gradient(#050014, rgba(1, 2, 30, 0.8901960784));
+}
+
+.contactMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 9%;
+  padding: 96px 0;
+}
+
+.contactMe-title {
+  width: 50%;
+  font-size: 64px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contactMe-title span {
+  font-size: 100px;
+}
+
+.contactMe-img {
+  width: 40%;
+}
+.contactMe-img img {
+  width: 162px;
+  height: 162px;
 }

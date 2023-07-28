@@ -2,7 +2,9 @@
     width: 1296px;
     margin: 0 auto;
 }
-
+.bg-black{
+    background: #000;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -10,6 +12,9 @@
         padding: 40px 0 24px 0;
         width: 306px;
         text-align: center;
+        a{
+            color: $nav_text;
+        }
     }
 }
 .header{
@@ -20,18 +25,112 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    a{
-        display: block;
-        margin-left: auto;
-        padding: 12px 24px;
-        border-radius: 32px;
-        outline: solid 1px black;
-    }
+}
+.contackme{
+    display: block;
+    margin-left: auto;
+    padding: 12px 24px;
+    border-radius: 32px;
+    background: #fff;
+    color: #000;
 }
 .job{
     font-size: 64px;
+    color: $main_text_color;
 }
 .name{
     font-size: 128px;
     text-align: right;
+    color: #00FFA3;
+}
+
+.introduction-bg{
+    background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
+}
+.introduction{
+    display: flex;
+    gap: 24px;
+    padding: 160px 0;
+}
+.intro-content{
+    width: 40%;
+    p{
+        font-size: 24px;
+        color: $main_text_color;
+        margin-bottom: 32px;
+    }
+}
+.intro-title{
+    font-size: 64px;
+    color: $main_text_color;
+    margin-bottom: 36px;
+}
+
+.intro-pic{
+    width: 60%;
+    img{
+        margin-right: 24px;
+    }
+    img:last-child{
+        margin-right: 0;
+    }
+}
+
+.aboutme{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 160px 0;
+}
+.skill-cards{
+    width: 49%;
+}
+.skill-list{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    li{
+        width: 45%;
+        padding: 16px;
+        outline: solid 1px #e3e3e3;
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.08);
+    }
+}
+.skill-title{
+    font-size: 20px;
+}
+.aboutme-content{
+    width: 40%;
+    p{
+        font-size: 24px;
+    }
+}
+.aboutme-title{
+    font-size: 64px;
+}
+
+.contactMe-bg{
+    background: linear-gradient(#050014,#01021EE3);
+}
+.contactMe{
+    display: flex;
+    gap: 9%;
+    padding: 96px 0;
+}
+.contactMe-title{
+    width: 50%;
+    font-size: 64px;
+    color: $main_text_color;
+    display: flex;
+    align-items: center;
+    span{
+        font-size: 100px;
+    }
+}
+.contactMe-img{
+    width: 40%;
+    img{
+        width: 162px;
+        height: 162px;
+    }
 }
