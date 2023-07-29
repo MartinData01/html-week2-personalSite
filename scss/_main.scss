@@ -14,6 +14,9 @@
         text-align: center;
         a{
             color: $nav_text;
+            &:hover{
+                border-bottom: 3px solid $nav_text;
+            }
         }
     }
 }
@@ -34,6 +37,12 @@
     border-radius: 32px;
     background: #fff;
     color: #000;
+    transition: 0.5s;
+    &:hover{
+        color: $main_text_color;
+        background: #000;
+        outline: solid 2px $main_text_color;
+    }
 }
 .job{
     font-size: 64px;
@@ -47,6 +56,7 @@
 
 .introduction-bg{
     background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
+    background-size: cover;
 }
 .introduction{
     display: flex;
@@ -133,6 +143,10 @@
     img{
         width: 162px;
         height: 162px;
+        transition: 0.5s;
+        &:hover{
+            filter: drop-shadow(0px 0px 10px rgba(144, 148, 255, 1));
+        }
     }
 }
 
@@ -166,6 +180,12 @@
         background: #000;
         color: $main_text_color;
         margin-right: auto;
+        transition: 0.5s;
+        &:hover{
+            color: #000;
+            background: $main_text_color;
+            outline: solid 2px #000;
+        }
     }
 }
 .project-content-bottom{
