@@ -120,7 +120,12 @@ a {
 }
 
 .contackme {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: auto;
   padding: 12px 24px;
   border-radius: 32px;
@@ -256,4 +261,72 @@ a {
 .contactMe-img img {
   width: 162px;
   height: 162px;
+}
+
+.project-block {
+  padding: 160px 0;
+}
+
+.project-title {
+  font-size: 64px;
+  width: 746px;
+  margin-left: auto;
+  margin-bottom: 16px;
+}
+
+.myProject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.project-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.project-content-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.project-content-text a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: #000;
+  color: #fff;
+  margin-right: auto;
+}
+
+.project-content-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer-text {
+  text-align: center;
+  color: #fff;
 }

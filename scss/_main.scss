@@ -27,7 +27,8 @@
     justify-content: center;
 }
 .contackme{
-    display: block;
+    display: flex;
+    align-items: center;
     margin-left: auto;
     padding: 12px 24px;
     border-radius: 32px;
@@ -133,4 +134,49 @@
         width: 162px;
         height: 162px;
     }
+}
+
+.project-block{
+    padding: 160px 0;
+}
+.project-title{
+    font-size: 64px;
+    width: 746px;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+.myProject{
+    display: flex;
+    gap: 24px;
+}
+.project-content{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+.project-content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a{
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 32px;
+        background: #000;
+        color: $main_text_color;
+        margin-right: auto;
+    }
+}
+.project-content-bottom{
+    display: flex;
+    gap: 24px;
+}
+
+.footer{
+    padding: 40px 0;
+}
+.footer-text{
+    text-align: center;
+    color: $main_text_color;
 }
