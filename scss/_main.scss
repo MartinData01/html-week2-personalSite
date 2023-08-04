@@ -10,8 +10,7 @@
     justify-content: space-between;
     li{
         padding: 40px 0 24px 0;
-        width: 306px;
-        text-align: center;
+        color: $nav_text;
         a{
             color: $nav_text;
             &:hover{
@@ -57,6 +56,7 @@
 .introduction-bg{
     background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .introduction{
     display: flex;
@@ -78,13 +78,9 @@
 }
 
 .intro-pic{
+    display: flex;
     width: 60%;
-    img{
-        margin-right: 24px;
-    }
-    img:last-child{
-        margin-right: 0;
-    }
+    gap: 24px;
 }
 
 .aboutme{
@@ -140,6 +136,8 @@
 }
 .contactMe-img{
     width: 40%;
+    display: flex;
+    gap: 20px;
     img{
         width: 162px;
         height: 162px;

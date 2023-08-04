@@ -92,8 +92,7 @@ a {
 }
 .navbar li {
   padding: 40px 0 24px 0;
-  width: 306px;
-  text-align: center;
+  color: #D1D1D1;
 }
 .navbar li a {
   color: #D1D1D1;
@@ -157,6 +156,7 @@ a {
 .introduction-bg {
   background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .introduction {
@@ -183,13 +183,11 @@ a {
 }
 
 .intro-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 60%;
-}
-.intro-pic img {
-  margin-right: 24px;
-}
-.intro-pic img:last-child {
-  margin-right: 0;
+  gap: 24px;
 }
 
 .aboutme {
@@ -268,6 +266,10 @@ a {
 
 .contactMe-img {
   width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
 }
 .contactMe-img img {
   width: 162px;
